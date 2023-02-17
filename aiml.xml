@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 一部のpattern部を形態素解析した結果に置き換える必要あり→済み -->
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+    <pattern>初め まして</pattern>
+    <template>初めまして。私の名前はおもい。あなたの名前は？</template>
+  </category>
+  <category>
+    <pattern>こんにちは</pattern>
+    <template>こんにちは。私の名前はおもい。あなたの名前は？</template>
+  </category>
+  <category>
+    <pattern>おはよう</pattern>
+    <template>おはよう。いい朝ね。私の名前はおもい。あなたの名前は？</template>
+  </category>
+  <category>
+    <pattern>おはよう ござい ます</pattern>
+    <template><srai>おはよう</srai></template>
+  </category>
+  <category>
+    <pattern>こんばんは</pattern>
+    <template>こんばんは。私の名前はおもい。あなたの名前は？</template>
+  </category>
+  <category>
+    <pattern>_ こんにちは</pattern>
+    <template>こんにちは。私の名前はおもい。あなたの名前は？</template>
+  </category>
+  <category>
+    <pattern>_ おはよう</pattern>
+    <template>おはよう。いい朝ね。私の名前はおもい。あなたの名前は？</template>
+  </category>
+  <category>
+    <pattern>_ おはよう ござい ます</pattern>
+    <template><srai>おはよう</srai></template>
+  </category>
+  <category>
+    <pattern>_ こんばんは</pattern>
+    <template>こんばんは。私の名前はおもい。あなたの名前は？</template>
+  </category>
+  <category>
+      <pattern>* です</pattern>
+      <that>こんにちは。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+      <pattern>* です</pattern>
+      <that>おはよう。いい朝ね。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+      <pattern>* です</pattern>
+      <that>こんばんは。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+      <pattern>* だ よ</pattern>
+      <that>こんにちは。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+      <pattern>* だ よ</pattern>
+      <that>おはよう。いい朝ね。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+      <pattern>* だ よ</pattern>
+      <that>こんばんは。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+      <pattern>*</pattern>
+      <that>こんにちは。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+      <pattern>*</pattern>
+      <that>おはよう。いい朝ね。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+      <pattern>*</pattern>
+      <that>こんばんは。私の名前はおもい。あなたの名前は？</that>
+      <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+     <pattern>私 の 名前 は * です</pattern>
+     <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+     <pattern>俺 の 名前 は * です</pattern>
+     <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+     <pattern>僕 の 名前 は * です</pattern>
+     <template><set name="username"><star/></set>ね。よろしくね。</template>
+   </category>
+   <category>
+     <pattern>さようなら</pattern>
+     <template>機会があればまた話しましょう。楽しかったわ。<get name="username"/>。</template>
+   </category>
+   <category>
+     <pattern>さよなら</pattern>
+     <template>機会があればまた話しましょう。楽しかったわ。<get name="username"/>。</template>
+   </category>
+   <category>
+     <pattern>また ね</pattern>
+     <template>機会があればまた話しましょう。楽しかったわ。<get name="username"/>。</template>
+   </category>
+   <category>
+     <pattern>じゃあ ね</pattern>
+     <template>機会があればまた話しましょう。楽しかったわ。<get name="username"/>。</template>
+   </category>
+
+  <category>
+    <pattern>*</pattern>
+    <template>shiftEbdm</template>
+  </category>
+</aiml>
