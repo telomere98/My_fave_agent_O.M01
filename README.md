@@ -1,0 +1,4 @@
+# My_fave_agent_O.M01
+x19069卒業制作作品付録
+最新版作品プロジェクトファイルURL(https://drive.google.com/drive/folders/1hpRa79a9uAK1s_idaUxZEZVYPjLOgFqK?usp=share_link)
+このリポジトリにはdialogue_system_bert.pyで使用するbert_evaluator.binは含まれていません。上のURLよりダウンロードしてください
