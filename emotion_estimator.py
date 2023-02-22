@@ -1,5 +1,5 @@
-key = "07ab6dcf966841f7b30c548d4ca02529"
-endpoint = "https://emotionestimatorbytextanalytics.cognitiveservices.azure.com/"
+key = ""
+endpoint = ""#Azureで入手したキーとエンドポイント
 
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
