@@ -21,7 +21,7 @@ from emotion_estimator import EmotionEstimator
 
 import io
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/home/x19069/O.M01/zinc-mantra-353103-2e6b6d869d54.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = ''#gcpで入手したjsonファイルのパス
 
 HOST = "127.0.0.1"
 MAINPORT = 50007
